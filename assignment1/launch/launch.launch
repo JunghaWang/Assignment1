@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+	<!-- Launch Turtlesim Simulation -->
+	<node pkg="turtlesim" name="turtlesim" type="turtlesim_node" />
+	<!-- Custom nodes -->
+	<node pkg="assignment1" name="cmd_vel" type="cmd_vel" />
+	<node pkg="assignment1" name="pub_turtlesim" type="pub_turtlesim" output="screen" />
+</launch>
